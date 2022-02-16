@@ -1,0 +1,28 @@
+.card{
+    display:inline-flex;
+    margin: 5%;
+}
+h1{
+    text-align: center;
+    font-size: 280%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h2{
+    text-align: center;
+    font-size: 190%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h6{
+    color: gray;
+}
+body{
+    background-image: linear-gradient(gray, white);
+    
+}
+.nav-item{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+li :hover{
+    background-color: antiquewhite;
+    transition: all 2s;
+}
