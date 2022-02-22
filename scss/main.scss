@@ -1,0 +1,49 @@
+/*import*/
+@import "nosotros";
+@import "estudio";
+@import "contactos";
+@import "proyectos";
+@import "index";
+/*anidamiento*/
+body{
+    background-image: linear-gradient(gray, white);
+    header{
+        nav{
+            background-color: gray;
+        }
+    }
+}
+
+/*mapa*/
+$colores: (
+    header: gray,
+    footer: black,
+    botones: beige,
+    letra: white
+)
+
+/*extend y mixins*/
+.navuno{
+    background-color: gray;
+    margin: 1%;
+    padding: 1%;
+}
+.navtres{
+    @extend .navuno;
+    background-color: green ;
+}
+
+@mixin color {
+    background-color: gray;
+    color: antiquewhite;
+}
+
+footer{
+    @include color;
+    padding: 1%;
+}
+header{
+    @include color;
+    padding: 1%;
+}
+

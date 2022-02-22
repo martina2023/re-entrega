@@ -1,0 +1,6 @@
+Cambios realizados:
+●	Agregué keywords al archivo index.html
+●	Agregué descripción en el head del index.html
+●	Cambié los títulos a cada uno de los HTML
+●	Cambié las img con distintos tamaños al carrusel del index para que sean medidas responsive
+●	Cambié las img con distintos tamaños de las cards de las páginas proyectos.html y nosotros.html para que sean medidas responsive
